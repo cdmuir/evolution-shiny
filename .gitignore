@@ -1,0 +1,15 @@
+## miscellaneous R files
+##
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+## shinyapps.io files
+##
+rsconnect/
+
+## miscellaneous files
+##
+*~
