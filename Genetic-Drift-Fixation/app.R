@@ -111,7 +111,7 @@ server <- function(input, output) {
     ) %>%
       mutate(p = ifelse(is.na(p), p_final, p))
     
-    ## construct data frame for plot
+    ## construct data frame for plotly
     ##
     n_gen <- max(df$t)
     d <- crossing(

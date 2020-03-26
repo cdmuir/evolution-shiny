@@ -1,3 +1,5 @@
+# evolution-shiny
+
 This repository contains some simple [RShiny](https://shiny.rstudio.com/) applications that I developed to illustrate topics I cover in my undergraduate course on [Evolutionary Biology](https://cdmuir.netlify.com/#teaching). The applications are hosted at shinyapps.io. Below you'll find a list of direct links to make access a bit
 more convenient.
 

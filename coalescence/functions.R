@@ -108,8 +108,18 @@ for_sim <- function(n) {
       data = df_balls1,
       color = "steelblue", size = 2
     ) +
+    ylab("Time (generations)") +
     coord_flip(ylim = c(gen - c_gen, 1)) +
-    theme_void()
+    theme_minimal() +
+    theme(
+      axis.line.x = element_line(),
+      axis.line.y = element_blank(),
+      panel.grid = element_blank(),
+      axis.text.x = element_text(),
+      axis.text.y = element_blank(),
+      axis.title.x = element_text(size = 18),
+      axis.title.y = element_blank()
+    )
   
   gp
 
