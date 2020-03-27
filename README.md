@@ -6,5 +6,6 @@ more convenient.
 * [Allele frequency changes with genetic drift](https://cdmuir.shinyapps.io/Genetic-Drift-Fixation/)
 * [Selection at one locus with two alleles](https://cdmuir.shinyapps.io/Viability-selection1/)
 * [Gene trees and coalescence](https://cdmuir.shinyapps.io/coalescence/)
+* [Coalescent simulations with mutations and alignments](https://cdmuir.shinyapps.io/genetree-to-phylogeny/)
 
 These apps are adapted from other apps by [Kent Holsinger](https://kholsinger.github.io/PopGen-Shiny/) and [Silas Tittes](https://github.com/silastittes/shiny_popgen).
