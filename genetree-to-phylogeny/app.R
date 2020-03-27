@@ -30,7 +30,7 @@ ui <- fluidPage(pageWithSidebar(
     sliderInput(
       inputId = "N",
       label = "Population size",
-      value = 4,
+      value = 10,
       min = 2,
       max = 20,
       step = 1
@@ -41,7 +41,7 @@ ui <- fluidPage(pageWithSidebar(
     sliderInput(
       inputId = "L",
       label = "Sequence length",
-      value = 4,
+      value = 10,
       min = 1,
       max = 20,
       step = 1
@@ -86,6 +86,14 @@ ui <- fluidPage(pageWithSidebar(
     p("Each time you hit the \"GO\" button you'll get a different random simulation."),
     
     plotOutput(outputId = 'viz1'),
+    
+    h2("Some things to make sure you understand (ask if you don't!)"),
+    
+    p("1. Phylogenies can represent the evolutionary relationships among many different entities. What entities (species, alleles, individuals) are being simulated here?"),
+    
+    p("2. The orange boxes above the branches show where mutations occured in the past. Do you understand what the number means? Given the branch where that mutation occurred, which tips should share that mutation? Did the alignment match your expectations?"),
+    
+    p("3. The alignment shows a simulated sequence of DNA, one per tip. How many sites are in this alignment? What states can each site have in this simulation?"),
     
     h2("Suggested activity: Compare simulated and inferred phylogenies"),
 
